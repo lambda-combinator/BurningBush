@@ -14,12 +14,12 @@
   - [x] Add error checking declarations
 
  Create `abi/cuda_abi.cpp`
-  - [ ] Implement `cuda_malloc` using `cudaMalloc`
-  - [ ] Implement `cuda_free` using `cudaFree`
-  - [ ] Implement `cuda_memcpy_h2d` using `cudaMemcpy` with `cudaMemcpyHostToDevice`
-  - [ ] Implement `cuda_memcpy_d2h` using `cudaMemcpy` with `cudaMemcpyDeviceToHost`
-  - [ ] Implement `cuda_add` kernel launcher
-  - [ ] Add error checking with `cudaGetLastError` after each operation
+  - [x] Implement `cuda_malloc` using `cudaMalloc`
+  - [x] Implement `cuda_free` using `cudaFree`
+  - [x] Implement `cuda_memcpy_h2d` using `cudaMemcpy` with `cudaMemcpyHostToDevice`
+  - [x] Implement `cuda_memcpy_d2h` using `cudaMemcpy` with `cudaMemcpyDeviceToHost`
+  - [x] Implement `cuda_add` kernel launcher
+  - [x] Add error checking with `cudaGetLastError` after each operation
 
  Create `abi/Makefile`
   - [ ] Add compilation rules for `cuda_abi.cpp`

@@ -25,7 +25,7 @@ int cuda_synchronize();
 
 // Operations
 
-void cuda_add(float* a, float* b, float* c, size_t n);
+void cuda_add(float* a, float* b, float* c, int n);
 
 #ifdef __cplusplus
 }
